@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    height: 750px;
+}
+
+.secondContainer {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title {
+    color: black;
+    margin: 20px;
+    
+}
+
+.myName {
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #161516;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px #686868;
+    letter-spacing: 1px;
+}
+
+.fullstack {
+    font-size: 80px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(156, 192, 209);
+    font-weight: bold;
+    text-shadow: 1px 2px 2px #161516;
+}
+
+.img {
+    margin-bottom: 120px;
+}

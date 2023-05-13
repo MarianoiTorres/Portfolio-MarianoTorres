@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    background-color: #161516;
+}
+
+.secondContainer
+{
+    width: 85%;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.skills{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 35%;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.skills:hover {
+    background-color: rgb(156, 192, 209);
+    cursor: pointer;
+}

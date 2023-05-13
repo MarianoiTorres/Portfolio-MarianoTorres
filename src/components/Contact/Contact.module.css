@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+
+    background-color: white;
+}
+
+.secondContainer
+{
+    width: 85%;
+    background-color: #f3f3f3;
+    margin: 20px;
+    width: 800px;
+    border-radius:15px;
+    box-shadow: 2px 5px 5px black;
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer {
+    
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    background-color: #161516;
+    color: white;
+    border-radius:15px;
+    padding: 10px;  
+    text-indent: 10px
+}
+
+textarea {
+    border-radius:15px;
+    padding: 15px;
+    height: 120px;
+    background-color: #161516;
+    color: white;
+    resize: none;
+}
+
+.submit {
+    margin-top: 10px;
+    height: 40px;
+    background-color: #161516;
+    color: white;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+
+}

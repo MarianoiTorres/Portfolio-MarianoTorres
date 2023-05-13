@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    background-color: #161516;
+}
+
+.secondContainer
+{
+    width: 85%;
+
+}
+
+
+.educContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.education {
+    
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.education:hover { 
+    background-color: #161516;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px rgb(255, 255, 255);
+}
+
+.education:hover .containerCarrera h2 { 
+    color: white;
+}
+
+.education:hover .containerCarrera p { 
+    color: white;
+}
+
+.carrera {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+.containerCarrera {
+    margin: 20px;
+}
+
+.institucion {
+    color: black;
+    font-size: 20px;
+}
+
+.fecha {
+    color: black;
+    font-size: 15px;
+}
+
+.img {
+    width: 170px;
+    border-radius: 30px;
+}
+
