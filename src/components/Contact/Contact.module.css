@@ -84,7 +84,11 @@ textarea {
     }
 
     .secondContainer {
-        width: 80%;
+        width: 95%;
+    }
+
+    .title {
+        padding-top: 20px;
     }
 
     form {

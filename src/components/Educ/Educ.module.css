@@ -82,12 +82,11 @@
 @media (max-width: 640px){
     .container {
         display: block;
-        padding-right: 23px;
         height: 650px;
     }
 
     .secondContainer {
-        width: 85%;
+        width: 100%;
     }
 
     .title {
@@ -96,7 +95,7 @@
     }
 
     .education{
-        width:85%;
+        width:90%;
         height: 250px;
         align-items: center;
         
