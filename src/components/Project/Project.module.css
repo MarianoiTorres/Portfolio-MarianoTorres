@@ -14,6 +14,7 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
+    padding-top: 18px;
 }
 
 .projectsContainer {
@@ -48,6 +49,7 @@
     height: 100%;
     border-radius: 10px;
     box-shadow: 1px 3px 8px black;
+    object-fit: cover;
 }
 
 .titleProject{
@@ -58,11 +60,11 @@
     bottom: 0;
     height: 35px;
     width: 250px;
-    opacity: 10;
+    font-size: 23px;
     background-color: rgba(0, 0, 0, 0.5);
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
     padding-left: 9px;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 
 .links {
@@ -101,9 +103,36 @@
 
 .a {
     color: black;
+    text-decoration: none;
 }
 
 .a:visited {
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 640px){
+    .container {
+        width: 90%;
+        display: block;
+        height: 1800px;
+    }
+
+    .secondContainer {
+        width: 90.99%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerPerProject {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 85%;
+    }
+
+    .info {
+        width: 85%;
+    }
+ }

@@ -18,9 +18,6 @@
     width: 85%;
 }
 
-a{
-    text-decoration: none;
-}
 
 .ul {
     margin: 0;
@@ -32,13 +29,21 @@ a{
     margin-left: 30px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navLinks:visited {
+    color: white;
 }
 
 .navLinks:hover {
     color: rgb(156, 192, 209);
+    
 }
 
+
 .name{
+    text-decoration: none;
     margin: 0;
     color: white;
     margin-left: 140px;
@@ -49,9 +54,34 @@ a{
 
 .name:hover{
     color: rgb(156, 192, 209);
+    text-decoration: none;
 }
 
 .separador {
     color: white;
     margin: 0;
 }
+
+@media (max-width: 640px){
+    .container {
+        display: block;
+        padding-right: 23px;
+        height: 65px;
+    }
+
+    .secondContainer {
+        width: 100%;
+    }
+
+    .secondContainer h3 {
+        margin: 15px;
+    }
+
+    .secondContainer h2 {
+        display: none;
+    }
+
+    .ul {
+        display: none;
+    }
+ }

@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
-    height: 650px;
+    height: 600px;
     background-color: #161516;
 }
 
@@ -23,11 +23,11 @@
 }
 
 .title {
+    margin: 35px;
     color: white;
     font-size: 20px;
     display: flex;
     justify-content: center;
-    margin: 20px;
     
 }
 
@@ -78,4 +78,34 @@
     width: 170px;
     border-radius: 30px;
 }
+
+@media (max-width: 640px){
+    .container {
+        display: block;
+        padding-right: 23px;
+        height: 650px;
+    }
+
+    .secondContainer {
+        width: 85%;
+    }
+
+    .title {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .education{
+        width:85%;
+        height: 250px;
+        align-items: center;
+        
+    }
+
+    .img {
+        height: 100px;
+        width: 100px;
+        padding-right: 10px;
+    }
+ }
 

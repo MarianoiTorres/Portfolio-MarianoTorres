@@ -29,11 +29,40 @@
     gap: 2px;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(156, 192, 209);
+    
     transition: 0.4s ease-in-out;
 }
+
+@media (max-width: 640px){
+    .container {
+        display: block;
+        padding-right: 23px;
+        height: 150px;
+    }
+
+    .secondContainer {
+        width: 85%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+ }

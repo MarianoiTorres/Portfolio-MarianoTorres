@@ -17,6 +17,7 @@
 }
 
 .title {
+    margin: 30px;
     color: black;
     font-size: 20px;
     display: flex;
@@ -30,7 +31,7 @@
 }
 
 form {
-    gap: 15px;
+    gap: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,7 +44,7 @@ label {
 }
 
 input {
-    height: 30px;
+    height: 40px;
     background-color: #161516;
     color: white;
     border-radius:15px;
@@ -74,3 +75,28 @@ textarea {
     color: black;
 
 }
+
+@media (max-width: 640px){
+    .container {
+        display: block;
+        padding-right: 23px;
+        height: 600px;
+    }
+
+    .secondContainer {
+        width: 80%;
+    }
+
+    form {
+        width: 90%;
+        height:450px;
+    }
+
+    input {
+        width: 98%;
+    }
+
+    textarea {
+        width: 98%;
+    }
+ }
