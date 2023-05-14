@@ -9,6 +9,8 @@
     top: 0;
     left: 0;
     z-index: 9999;
+    margin: 0;
+    padding: 0;
 }
 
 .secondContainer{
@@ -22,7 +24,6 @@
 .ul {
     margin: 0;
     padding: 0;
-    
 }
 
 .navLinks {
@@ -62,15 +63,25 @@
     margin: 0;
 }
 
+.menu {
+    display: none;
+}
+
 @media (max-width: 640px){
     .container {
         display: block;
-        padding-right: 23px;
         height: 65px;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
+    
 
     .secondContainer {
-        width: 100%;
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .secondContainer h3 {
@@ -82,6 +93,57 @@
     }
 
     .ul {
-        display: none;
+        background-color: #252325;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        animation-duration: 0.3s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
     }
+
+    .open {
+        animation-name: slideDown;
+      }
+      
+    .closed {
+        animation-name: slideUp;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 15px;
+        background: none;
+        border: none;
+    }
+
+    .menu img {
+        width: 50px;
+    }
+
+    @keyframes slideDown {
+        0% {
+          transform: scaleY(0);
+          transform-origin: top;
+        }
+        100% {
+          transform: scaleY(1);
+          transform-origin: top;
+        }
+      }
+      
+      @keyframes slideUp {
+        0% {
+          transform: scaleY(1);
+          transform-origin: top;
+        }
+        100% {
+          transform: scaleY(0);
+          transform-origin: top;
+        }
+      }
  }
+
+ 
