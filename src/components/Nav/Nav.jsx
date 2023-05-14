@@ -8,6 +8,7 @@ const Nav = () => {
     const menuHandler = () => {
         setMenu(!menu)
     }
+
     const ulClassName = `${style.ul} ${menu ? style.open : style.closed}`;
     return (
         <div className={style.container}>

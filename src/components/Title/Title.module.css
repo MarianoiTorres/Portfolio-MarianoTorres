@@ -25,13 +25,13 @@
     color: #161516;
     font-weight: bold;
     text-shadow: 1px 2px 2px #686868;
-
     white-space: nowrap;
     border-right: 4px solid;
     width: 20ch;
     animation: typing 3s steps(24), blink .5s infinite step-end alternate;
     overflow: hidden;
-    
+    user-select: none;
+
 }
 
 @keyframes typing {
@@ -49,11 +49,14 @@
     color: rgb(156, 192, 209);
     font-weight: bold;
     text-shadow: 1px 2px 2px #161516;
+    user-select: none;
+
 }
 
 .img {
     margin-bottom: 120px;
     animation: animation infinite ease-in-out 2800ms;
+    
 }
 
 @keyframes animation {

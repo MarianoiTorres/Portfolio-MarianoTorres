@@ -102,9 +102,13 @@
     }
 
     .img {
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
         padding-right: 10px;
+    }
+
+    .carrera {
+        font-size: 25px;
     }
  }
 
