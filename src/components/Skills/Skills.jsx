@@ -3,7 +3,7 @@ import style from './Skills.module.css'
 const Skills = () => {
 
     return (
-        <div className={style.container}>
+        <div className={style.container} id='skills'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
                     <h1>Skills</h1>

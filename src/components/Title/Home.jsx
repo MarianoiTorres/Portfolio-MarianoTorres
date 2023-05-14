@@ -3,7 +3,7 @@ import style from './Title.module.css'
 const Home = () => {
 
     return (
-        <div className={style.container}>
+        <div className={style.container} id='home'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
                     <p className={style.myName}>Hola! Soy Mariano Torres</p>

@@ -2,7 +2,7 @@ import style from './Educ.module.css'
 
 const Educ = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='education'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
                     <h1>Education</h1>

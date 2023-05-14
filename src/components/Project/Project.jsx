@@ -2,7 +2,7 @@ import style from './Project.module.css'
 
 const Project = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='projects'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
                     <h1>Projects</h1>
@@ -22,8 +22,8 @@ const Project = () => {
                                 - Crear tu propio juego
                                 - Ver los detalles de cada uno al hacer click sobre las cards</p>
                             <div className={style.links}>
-                                <button className={style.demo}>Ver demo</button>
-                                <button className={style.github}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></button>
+                                <button className={style.demo}><a className={style.a} href="https://pi-videogames-mdjn.vercel.app/" target="_blank">Ver demo</a></button>
+                                <button className={style.github}><a href="https://github.com/MarianoiTorres/PI-Videogames" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
                             </div>
                         </div>
                     </div>
@@ -35,8 +35,8 @@ const Project = () => {
                         <div className={style.info}>
                             <p>E-commerce de venta de chocolates, ofrece una amplia variedad de productos de alta calidad. Aceptamos pasarelas seguras de pago como MercadoPago y criptomonedas, y ofrecemos un registro fácil con cuentas de Google o Facebook. Los usuarios pueden valorar y comentar productos, y los administradores tienen acceso a un dashboard completo para modificar cualquier aspecto de la aplicación.</p>
                             <div className={style.links}>
-                                <button  className={style.demo}>Ver demo</button>
-                                <button className={style.github}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></button>
+                                <button  className={style.demo}><a className={style.a} href='https://deploy-front2.vercel.app/home' target="_blank">Ver demo</a></button>
+                                <button className={style.github}><a href="https://github.com/MarianoiTorres/PF-TheChocolateHub" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Project = () => {
                             <p>Mi Portfolio :D</p>
                             <div className={style.links}>
                                 <button  className={style.demo}>Ver demo</button>
-                                <button className={style.github}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></button>
+                                <button className={style.github}><a href="https://github.com/MarianoiTorres/Portfolio-MarianoTorres" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
                             </div>
                         </div>
                     </div>
