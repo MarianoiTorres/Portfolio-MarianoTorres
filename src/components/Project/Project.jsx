@@ -48,7 +48,7 @@ const Project = () => {
                         <div className={style.info}>
                             <p>Mi Portfolio :D</p>
                             <div className={style.links}>
-                                <button  className={style.demo}>Ver demo</button>
+                                <button  className={style.demo}><a className={style.a} href='https://portfolio-mariano-torres.vercel.app/'>Ver demo</a></button>
                                 <button className={style.github}><a href="https://github.com/MarianoiTorres/Portfolio-MarianoTorres" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
                             </div>
                         </div>
