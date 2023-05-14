@@ -29,16 +29,16 @@
     gap: 2px;
 }
 
-a{
+.a{
     text-decoration: none;
 }
 
-a:visited {
+.a:visited {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+.a:hover {
     color: rgb(156, 192, 209);
     
     transition: 0.4s ease-in-out;

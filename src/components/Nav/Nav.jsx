@@ -13,7 +13,7 @@ const Nav = () => {
         <div className={style.container}>
             <div className={style.secondContainer}>
 
-                <a href='https://www.linkedin.com/in/mariano-torres-1b717b236/'><h3 className={style.name}>Mariano Torres</h3></a>
+                <a className={style.navLinks} href='https://www.linkedin.com/in/mariano-torres-1b717b236/'><h3 className={style.name}>Mariano Torres</h3></a>
                 <h2 className={style.separador}> | </h2>
                 <button className={style.menu} onClick={menuHandler}>
                    <img src="https://icon-library.com/images/white-menu-icon-png/white-menu-icon-png-18.jpg" alt="" />
