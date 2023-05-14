@@ -32,3 +32,8 @@
 a:visited {
     color: white;
 }
+
+a:hover {
+    color: rgb(156, 192, 209);
+    transition: 0.4s ease-in-out;
+}

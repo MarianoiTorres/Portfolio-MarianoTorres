@@ -5,7 +5,7 @@ const Project = () => {
         <div className={style.container} id='projects'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
-                    <h1>Projects</h1>
+                    <h1>Proyectos</h1>
                 </div>
                 <div className={style.projectsContainer}>
                     <div className={style.containerPerProject}>

@@ -1,8 +1,16 @@
 import style from './Contact.module.css'
 import emailjs from 'emailjs-com';
+import ModalSubmit from '../Modal/Modal';
+import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
-
+    
+    const [show, setShow] = useState(false);
+    
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    
     const submitHandler = (event) => {
         event.preventDefault()
 
@@ -19,11 +27,13 @@ const Contact = () => {
         });
     }
 
+
     return (
+        <>
         <div className={style.container} id='contact'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
-                    <h1>Contact</h1>
+                    <h1>¡Contactame!</h1>
                 </div>
                 <div className={style.formContainer}>
                     <form onSubmit={submitHandler}>
@@ -38,9 +48,12 @@ const Contact = () => {
 
                         <input className={style.submit} type="submit" value="Enviar" />
                     </form>
+                    <button onClick={handleShow}></button>
                 </div>
             </div>
         </div>
+        <ModalSubmit show={show} handleClose={handleClose}/>
+        </>
     )
 }
 

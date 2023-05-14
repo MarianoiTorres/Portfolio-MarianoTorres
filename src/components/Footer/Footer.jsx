@@ -9,9 +9,9 @@ const Footer = () => {
                 </div>
                 <div className={style.redes}>
                     <ul className={style.ul}>
-                        <a href="https://www.linkedin.com/in/mariano-torres-1b717b236/">Linkedin</a>
-                        <a href="https://github.com/MarianoiTorres">GitHub</a>
-                        <a href="https://www.instagram.com/mariano0o0/">Instagram</a>
+                        <a className={style.a} href="https://www.linkedin.com/in/mariano-torres-1b717b236/">Linkedin</a>
+                        <a className={style.a} href="https://github.com/MarianoiTorres">GitHub</a>
+                        <a className={style.a} href="https://www.instagram.com/mariano0o0/">Instagram</a>
                     </ul>
                 </div>
             </div>

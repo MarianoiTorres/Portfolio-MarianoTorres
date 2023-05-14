@@ -5,7 +5,7 @@ const Educ = () => {
         <div className={style.container} id='education'>
             <div className={style.secondContainer}>
                 <div className={style.title}>
-                    <h1>Education</h1>
+                    <h1>Educación</h1>
                 </div>
                 <div className={style.educContainer}>
                     <div className={style.education}>
