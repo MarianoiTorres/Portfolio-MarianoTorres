@@ -27,10 +27,11 @@
     text-shadow: 1px 2px 2px #686868;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 20ch;
+    width: 21ch;
     animation: typing 3s steps(24), blink .5s infinite step-end alternate;
     overflow: hidden;
     user-select: none;
+    padding-left: 5px;
 
 }
 
