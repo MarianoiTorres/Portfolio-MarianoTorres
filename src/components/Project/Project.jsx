@@ -30,13 +30,13 @@ const Project = () => {
                     <div className={style.containerPerProject}>
                         <div className={style.project}>
                             <h2 className={style.titleProject}>Trello Clone</h2>
-                            <a href='https://trello-clone-two-rouge.vercel.app/' target="_blank"><img className={style.img} width='550px' src="https://res.cloudinary.com/djdqwkavb/image/upload/v1684008128/Captura_xfpyjd.png"></img></a>
+                            <a href='https://trello-clone-two-rouge.vercel.app/' target="_blank"><img className={style.img} width='550px' src="https://res.cloudinary.com/djdqwkavb/image/upload/v1693277282/1_udblnq.png"></img></a>
                         </div>
                         <div className={style.info}>
                             <p>Clon de Trello es una aplicación web para la gestión de proyectos y tareas. Permite crear tableros con listas y tarjetas que representan tareas. Puedes mover tarjetas entre listas para hacer un seguimiento del progreso. También incluye funciones de colaboración en tiempo real y asignación de tareas a miembros del equipo. En resumen, es una herramienta eficiente para organizar y gestionar proyectos en equipo.</p>
                             <div className={style.links}>
                                 <button  className={style.demo}><a className={style.a} href='https://trello-clone-two-rouge.vercel.app/' target="_blank">Ver demo</a></button>
-                                <button className={style.github}><a href="https://github.com/MarianoiTorres/Trello-Clone" target="_blank"><img src="https://res.cloudinary.com/djdqwkavb/image/upload/v1693277282/1_udblnq.png" /></a></button>
+                                <button className={style.github}><a href="https://github.com/MarianoiTorres/Trello-Clone" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
                             </div>
                         </div>
                     </div>
@@ -53,19 +53,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={style.containerPerProject}>
-                        <div className={style.project}>
-                            <h2 className={style.titleProject}>Portfolio</h2>
-                            <a href='' ><img className={style.img} width='550px' src="https://res.cloudinary.com/djdqwkavb/image/upload/v1684021017/Captura_cxq0w9.png"></img></a>
-                        </div>
-                        <div className={style.info}>
-                            <p>Mi Portfolio :D</p>
-                            <div className={style.links}>
-                                <button  className={style.demo}><a className={style.a} href='https://portfolio-mariano-torres.vercel.app/'>Ver demo</a></button>
-                                <button className={style.github}><a href="https://github.com/MarianoiTorres/Portfolio-MarianoTorres" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a></button>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
